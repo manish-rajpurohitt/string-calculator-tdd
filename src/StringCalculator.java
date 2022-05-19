@@ -5,7 +5,7 @@ public class StringCalculator {
     public int Add(String numbers){
         if(!numbers.isEmpty()){
             List<Integer> integersList = new ArrayList<>();
-            String[] stringsArrayOfNumbers = numbers.split(",");
+            String[] stringsArrayOfNumbers = numbers.split(",|\n");
             int sum = 0;
             for (String stringsArrayOfNumber : stringsArrayOfNumbers) {
                 sum += Integer.parseInt(stringsArrayOfNumber);

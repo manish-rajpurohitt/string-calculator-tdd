@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b52e54a-60be-47d8-8cd6-ee06e3f70359" name="Changes" comment="created and initialized project with first test case">
+    <list default="true" id="4b52e54a-60be-47d8-8cd6-ee06e3f70359" name="Changes" comment="passed some test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCalculatorTest.java" afterDir="false" />
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652965325073</updated>
-      <workItem from="1652965328626" duration="2056000" />
+      <workItem from="1652965328626" duration="2374000" />
     </task>
     <task id="LOCAL-00001" summary="created and initialized project with first test case">
       <created>1652966652323</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652966652323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="passed some test cases">
+      <created>1652967497278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652967497278</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created and initialized project with first test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="created and initialized project with first test case" />
+    <MESSAGE value="passed some test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="passed some test cases" />
   </component>
 </project>
