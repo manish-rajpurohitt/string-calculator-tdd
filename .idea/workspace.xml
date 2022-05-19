@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b52e54a-60be-47d8-8cd6-ee06e3f70359" name="Changes" comment="messy code need refactoring">
+    <list default="true" id="4b52e54a-60be-47d8-8cd6-ee06e3f70359" name="Changes" comment="solved number format exception case and added some refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652965325073</updated>
-      <workItem from="1652965328626" duration="5528000" />
+      <workItem from="1652965328626" duration="6775000" />
     </task>
     <task id="LOCAL-00001" summary="created and initialized project with first test case">
       <created>1652966652323</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652970244395</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some refactoring">
+      <created>1652970924595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652970924595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +134,8 @@
     <MESSAGE value="passed some test cases" />
     <MESSAGE value="passed next line case with regex" />
     <MESSAGE value="messy code need refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="messy code need refactoring" />
+    <MESSAGE value="some refactoring" />
+    <MESSAGE value="solved number format exception case and added some refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved number format exception case and added some refactoring" />
   </component>
 </project>

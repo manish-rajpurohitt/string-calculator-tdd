@@ -1,6 +1,7 @@
 public class StringCalculator {
     public int Add(String numbers){
         if(!numbers.isEmpty()){
+            if(numbers.contains("-")) throw new NumberFormatException("negatives no allowed");
             String delimiter = numbers.startsWith("//") ? getDelimiterFromString(numbers) : "[,\n]";
             numbers = numbers.startsWith("//") ? numbers.split("\n")[1] : numbers;
             String[] stringsArrayOfNumbers = numbers.split(delimiter);
