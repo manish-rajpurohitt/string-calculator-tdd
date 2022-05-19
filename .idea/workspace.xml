@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b52e54a-60be-47d8-8cd6-ee06e3f70359" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StringCalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringCalculatorTest.java" afterDir="false" />
+    <list default="true" id="4b52e54a-60be-47d8-8cd6-ee06e3f70359" name="Changes" comment="created and initialized project with first test case">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +75,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652965325073</updated>
-      <workItem from="1652965328626" duration="1211000" />
+      <workItem from="1652965328626" duration="2056000" />
     </task>
+    <task id="LOCAL-00001" summary="created and initialized project with first test case">
+      <created>1652966652323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652966652323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created and initialized project with first test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="created and initialized project with first test case" />
   </component>
 </project>
