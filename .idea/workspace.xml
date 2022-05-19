@@ -7,7 +7,6 @@
     <list default="true" id="4b52e54a-60be-47d8-8cd6-ee06e3f70359" name="Changes" comment="messy code need refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652965325073</updated>
-      <workItem from="1652965328626" duration="4871000" />
+      <workItem from="1652965328626" duration="5528000" />
     </task>
     <task id="LOCAL-00001" summary="created and initialized project with first test case">
       <created>1652966652323</created>
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652967751851</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="messy code need refactoring">
+      <created>1652970244395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652970244395</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

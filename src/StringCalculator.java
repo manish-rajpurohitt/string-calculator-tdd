@@ -1,23 +1,23 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class StringCalculator {
     public int Add(String numbers){
         if(!numbers.isEmpty()){
-            String delimiter = "";
-            if(numbers.startsWith("//")){
-                delimiter = String.valueOf(numbers.split("\n")[0].charAt(2));
-                numbers = numbers.split("\n")[1];
-            }
-            List<Integer> integersList = new ArrayList<>();
-
-            String[] stringsArrayOfNumbers = delimiter.equals("") ? numbers.split("[,\n]"): numbers.split(delimiter);
-            int sum = 0;
-            for (String stringsArrayOfNumber : stringsArrayOfNumbers) {
-                sum += Integer.parseInt(stringsArrayOfNumber);
-            }
-            return sum;
+            String delimiter = numbers.startsWith("//") ? getDelimiterFromString(numbers) : "[,\n]";
+            numbers = numbers.startsWith("//") ? numbers.split("\n")[1] : numbers;
+            String[] stringsArrayOfNumbers = numbers.split(delimiter);
+            return getSumOfNumbersFromStringArray(stringsArrayOfNumbers);
         }else return 0;
+    }
+
+    private int getSumOfNumbersFromStringArray(String[] stringsArray){
+        int sum = 0;
+        for(String number : stringsArray){
+            sum += Integer.parseInt(number);
+        }
+        return sum;
+    }
+
+    private String getDelimiterFromString(String input){
+        return String.valueOf(input.split("\n")[0].charAt(2));
     }
 }
 
