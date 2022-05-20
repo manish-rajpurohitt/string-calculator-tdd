@@ -9,12 +9,17 @@ public class StringCalculator {
     }
     private int getSumOfNumbersFromStringArray(String[] stringsArray) throws NumberFormatException{
         int sum = 0;
+        StringBuilder negativeNumbers = new StringBuilder();
+
         for(String number : stringsArray){
             int intValue = Integer.parseInt(number);
-            if(intValue < 0) throw new NumberFormatException("negatives no allowed");
+            if(intValue < 0) {
+                negativeNumbers.append(intValue).append(" ");
+            }
             else sum += intValue;
         }
-        return sum;
+        if(negativeNumbers.length() == 0) return sum;
+        else throw new RuntimeException("negatives not allowed " + negativeNumbers);
     }
     private String[] getSplitNumbersFromString(String input){
         Matcher matcher = Pattern.compile("//(.)\n(.*)").matcher(input);
