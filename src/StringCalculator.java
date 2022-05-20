@@ -1,24 +1,26 @@
+import java.util.regex.*;
+
 public class StringCalculator {
     public int Add(String numbers){
         if(!numbers.isEmpty()){
-            if(numbers.contains("-")) throw new NumberFormatException("negatives no allowed");
-            String delimiter = numbers.startsWith("//") ? getDelimiterFromString(numbers) : "[,\n]";
-            numbers = numbers.startsWith("//") ? numbers.split("\n")[1] : numbers;
-            String[] stringsArrayOfNumbers = numbers.split(delimiter);
-            return getSumOfNumbersFromStringArray(stringsArrayOfNumbers);
+            String[] splitNumbers = getSplitNumbersFromString(numbers);
+            return getSumOfNumbersFromStringArray(splitNumbers);
         }else return 0;
     }
-
-    private int getSumOfNumbersFromStringArray(String[] stringsArray){
+    private int getSumOfNumbersFromStringArray(String[] stringsArray) throws NumberFormatException{
         int sum = 0;
         for(String number : stringsArray){
-            sum += Integer.parseInt(number);
+            int intValue = Integer.parseInt(number);
+            if(intValue < 0) throw new NumberFormatException("negatives no allowed");
+            else sum += intValue;
         }
         return sum;
     }
-
-    private String getDelimiterFromString(String input){
-        return String.valueOf(input.split("\n")[0].charAt(2));
+    private String[] getSplitNumbersFromString(String input){
+        Matcher matcher = Pattern.compile("//(.)\n(.*)").matcher(input);
+        String delimiter = matcher.matches() ? matcher.group(1) : "[,\n]";
+        String numbers = matcher.matches() ? matcher.group(2) : input;
+        return numbers.split(delimiter);
     }
 }
 
